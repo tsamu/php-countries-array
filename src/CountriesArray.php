@@ -362,7 +362,7 @@ class CountriesArray{
             }
         }
         if ($keyField !== null) {
-            asort($result);
+            asort($result, SORT_LOCALE_STRING);
         } else {
             sort($result);
         }
@@ -410,7 +410,7 @@ class CountriesArray{
             }
         }
         if ($keyField !== null) {
-            asort($result);
+            asort($result, SORT_LOCALE_STRING);
         } else {
             sort($result);
         }
@@ -469,7 +469,7 @@ class CountriesArray{
             }
         }
         if ($keyField !== null) {
-            asort($result);
+            asort($result, SORT_LOCALE_STRING);
         } else {
             sort($result);
         }
